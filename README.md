@@ -38,14 +38,14 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](Foto.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 - Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+- utilicé una api en react lo cual fue chevere debido que utilicé axios que me hizo trabajar de manera mas comoda
+- Mejoré en el uso de React, acomparacion del primer proyecto que hice en react, este supe como crear de una manera mejor los componentes
+- Ahora sé como usar mejor react
 
 ### Built With
 
@@ -88,9 +88,9 @@ $ npm start
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Website [Behance](https://www.behance.net/andrshernndez14)
+- GitHub [@AndresH11](https://github.com/AndresH11})
+- Likedin [@Andrés_Hernández_Aldana](https://www.linkedin.com/in/andr%C3%A9s-hern%C3%A1ndez-aldana-a8b008149})
 
 =======
 # weatherapp

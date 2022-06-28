@@ -11,7 +11,7 @@ const ResultSearch = ({ text, onClick })=>{
     return(
         <div className='container__ResultSearch' onClick={searchWeatherOfCity}>
             <p className='text__ResultSearch'>{text}</p>
-            <i class='bx bx-chevron-right'></i>
+            <i className='bx bx-chevron-right'></i>
         </div>
     );
 };

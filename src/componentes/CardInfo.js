@@ -29,7 +29,7 @@ const CardInfo = ({ title, date, unidades, PercentageBar, wsw }) => {
             style={PercentageBar ? styles.none : styles.flex}
           >
             <i
-              class="bx bxs-up-arrow"
+              className="bx bxs-up-arrow"
               style={PercentageBar ? styles.none : styles.flex}
             ></i>
           </figure>

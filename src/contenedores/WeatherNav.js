@@ -13,7 +13,7 @@ const WeatherNav = ({ bottonSearchOnclick }) => {
   return (
     <nav className="container__WeatherNav">
       <div className="container_X">
-        <i class="bx bx-x" onClick={deActivateSearchEngine}></i>
+        <i className="bx bx-x" onClick={deActivateSearchEngine}></i>
       </div>
       <Search onClick = {bottonSearchOnclick} />
       <ResultSearch text = {'Bogotá'} onClick = {bottonSearchOnclick} />

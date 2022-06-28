@@ -10,7 +10,7 @@ const Location = ({locationInitial})=>{
   };
     return(
       <span className='conteiner__location' onClick={ UicationInitial }>
-        <i className='bx bx-current-location' Style='color:#E7E7EB;' ></i>
+        <i className='bx bx-current-location' ></i>
       </span>
     );
 };
