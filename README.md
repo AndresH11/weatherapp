@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- Please update value in the {}  -->
 
 <h1 align="center">{weatherapp}</h1>
@@ -91,3 +92,6 @@ $ npm start
 - GitHub [@your-username](https://{github.com/your-usermame})
 - Twitter [@your-twitter](https://{twitter.com/your-username})
 
+=======
+# weatherapp
+>>>>>>> 9a3fce0e46f9267b653cb51fe32167d200cedc21
