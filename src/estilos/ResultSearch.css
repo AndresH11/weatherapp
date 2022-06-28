@@ -1,0 +1,30 @@
+.container__ResultSearch {
+  width: 95%;
+  height: 5.4rem;
+  margin-top: 3.8rem;
+  padding: 0rem 1.2rem 0rem 1.2rem;
+  display: flex;
+  align-items: center;
+  border: 1px solid #616475;
+  cursor: pointer;
+}
+
+.text__ResultSearch {
+  width: 100%;
+  font-family: "Raleway",sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #e7e7eb;
+}
+
+.container__ResultSearch i{
+  font-size: 3rem;
+  color: #616475;
+}
+
+@media (min-width: 1020px) {
+  .container__ResultSearch{
+    width: 36.8rem;
+  }
+}

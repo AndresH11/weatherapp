@@ -1,0 +1,14 @@
+.conteiner__location{
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(110, 112, 122, 0.3);
+    border-radius: 50%;
+    font-size: 3rem;
+}
+
+.conteiner__location i{
+    cursor: pointer;
+}

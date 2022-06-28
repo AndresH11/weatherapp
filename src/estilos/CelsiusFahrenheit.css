@@ -1,0 +1,50 @@
+.container__CelsiusFahrenheit {
+  display: none;
+}
+
+.container__CelsiusFahrenheit button {
+  width: 4rem;
+  height: 4rem;
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  font-family: "Raleway",sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  cursor: pointer;
+}
+
+.celsius{
+  margin-right: 1.2rem;
+  background-color: #585676;
+  color: #E7E7EB;
+}
+
+.celsius-active{
+  margin-right: 1.2rem;
+  background-color: #E7E7EB;
+  color: #110E3C;
+}
+
+.fharenheit{
+  background-color: #585676;
+  color: #E7E7EB;
+}
+
+.fharenheit-active{
+  background-color: #E7E7EB;
+  color: #110E3C;
+}
+
+@media (min-width: 1010px) {
+  .container__CelsiusFahrenheit {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding-right: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}

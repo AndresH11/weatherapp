@@ -1,0 +1,18 @@
+.Footer {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.text__footer {
+  font-family: "Montserrat",sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  text-align: center;
+  color: #a09fb1;
+}
+
+.text__footer b{
+  font-weight: 700;
+}

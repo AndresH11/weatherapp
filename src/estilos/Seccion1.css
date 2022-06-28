@@ -1,0 +1,17 @@
+.sectionWeatherCity{
+    min-width: 20rem;
+    min-height: 100vh;
+    padding-bottom: 10rem;
+    background-color: #1E213A;
+    background-image: url('../image/Cloud-background.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-blend-mode: soft-light;
+}
+
+@media (min-width: 1020px) {
+    .sectionWeatherCity{
+        max-width: 46rem;
+    }
+}
