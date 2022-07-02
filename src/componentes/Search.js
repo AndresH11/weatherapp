@@ -1,22 +1,24 @@
 import React from "react";
 import "../estilos/Search.css";
 
-const Search = ({onClick}) => {
-  const upperCaseValue = () => {
+const Search = ({ onClick }) => {
+  const upperCaseValue = () => { // FUNCION PARA CONVERTIR LA PRIMERA LETRA DE CADA PALABRA EN MAYUSCULA
     let inputValue = document.querySelector(".input__search").value;
-    let patron = /\w\S*/g;
-    return inputValue.replace(
-      patron,
-      (p) => p.charAt(0).toUpperCase() + p.substring(1).toLowerCase()
-    );
+    let cityName = inputValue.split(" ");
+    return cityName.map((palabra) => {
+        return palabra[0].toUpperCase() + palabra.substring(1);
+      })
+      .join(" ");
   };
 
-  const searchWeatherOfCity = () => {
+  const searchWeatherOfCity = () => { //FUNCIÓN PARA BUSCAR EL PAIS ESCRITO
     let searchValue = upperCaseValue();
 
     if (searchValue.length > 3) {
       onClick(searchValue);
-      document.querySelector('.container__WeatherNav').classList.remove('active');
+      document
+        .querySelector(".container__WeatherNav")
+        .classList.remove("active");
     } else {
       alert("Lo siento, escriba un nombre de ciudad correcto");
     }
