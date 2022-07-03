@@ -9,11 +9,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://62c0e677decd93000859dc33--mellifluous-horse-b83d11.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://62c0e677decd93000859dc33--mellifluous-horse-b83d11.netlify.app/">
       Solution
     </a>
     <span> | </span>
