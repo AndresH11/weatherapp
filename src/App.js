@@ -1,4 +1,4 @@
-import { React, useEffect, useState } from "react";
+import React,{ useEffect, useState } from "react";
 import "./App.css";
 import Seccion1 from "./contenedores/Seccion1";
 import Seccion2 from "./contenedores/Seccion2";
